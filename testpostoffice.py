@@ -1,6 +1,4 @@
+from postoffice import Postfunktioner
 
-from postoffice import calculator
-
-
-print calculator.is_envelop(12,12,11)
+print Postfunktioner.brev_kuvert(1, 4, 5, 200)
 
